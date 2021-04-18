@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^15.12.0"
+  },
+  "name": "amazoclone-app-",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Amazone Clone",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aarushnautiyal/Amazoclone-app.git"
+  },
+  "author": "Aarush Nautiyal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aarushnautiyal/Amazoclone-app/issues"
+  },
+  "homepage": "https://github.com/Aarushnautiyal/Amazoclone-app#readme"
+}
